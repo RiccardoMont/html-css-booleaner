@@ -35,11 +35,15 @@ main {
 h1 {
     font-size: 60px;
     margin-bottom: 5px;
+    font-weight: bolder;
+    line-height: 100%;
+    
 }
 
 h2 {
     color:rgb(154, 154, 154);
-    margin-top: 5px;
+    margin-top: -5px;
+    font-weight: 600;
 }
 
 a, a:visited {
@@ -77,14 +81,17 @@ th{
 td {
     text-align: left;
     font-weight: 600;
+    width: 5%;
 }
 
 p {
     font-weight:600;
+    line-height: 100%;
 }
 
 li {
     font-weight: 600;
+    line-height: 100%;
 }
 
 /*tabella*/
