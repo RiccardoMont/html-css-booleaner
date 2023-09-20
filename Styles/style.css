@@ -33,25 +33,40 @@ h2 {
    
 }
 
-
-
 #didascalia {
     font-size: 12px;
     margin-top: 2px;
 }
 
-
 .evidenziatore {
     background-color:yellow;
 }
 
-.adv {
-    display: flex;
-    flex-direction: column;
+
+footer{
+    
+}
+#adv1{
+    height: 100%;
+    padding: 100px;
+    background-image: url("../Images/monitor.jpg");
+    background-repeat: no-repeat;
 
 }
 
-.adv img {
-    width: 30%;
-    padding-bottom: 15px;    
+#adv2 {
+    height:100%;
+    padding: 100px;
+    background-image: url("../Images/graph.jpg");
+    background-repeat: no-repeat;
+}
+
+.annuncio {
+    color: white;
+    display:flex;
+    position: relative;
+    top:-100px;
+    left: -80px;
+    font-weight: bold;
+    font-size: 20px;
 }
