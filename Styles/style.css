@@ -1,15 +1,18 @@
 body{
     margin-top: 0;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
+/*body*/
 header{
     background-color: rgb(117, 171, 241);
     background-image: url("../Images/pattern.png");
     height: 150px;
-    width: 100%;
-    background-position-x: 115px;
+    width: 110%;
+    background-position-x: 105px;
     background-position-y: -20px;
+    position: left;
 }
 
 #logo {
@@ -19,33 +22,81 @@ header{
     left: 5px;
     top: 40px;
 }
+/*header*/
+
+main {
+    margin-left: 10px;
+}
 
 #titolo {
     margin-top: 20px;
 }
+
 h1 {
     font-size: 60px;
     margin-bottom: 5px;
 }
+
 h2 {
     color:rgb(154, 154, 154);
     margin-top: 5px;
-   
 }
+
+a, a:visited {
+    text-decoration: none;
+    color: rgb(0, 139, 220);
+}
+
+/*div #titolo*/
 
 #didascalia {
     font-size: 12px;
     margin-top: 2px;
 }
 
+/*didascalia sotto le immagini*/
+
 .evidenziatore {
     background-color:yellow;
 }
 
+/*testo evidenziato in pagina*/
+
+table {
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(19, 136, 233);
+    color: white;
+    text-align: left;
+}
+.odd {
+    background-color: skyblue;
+}
+
+td {
+    text-align: left;
+    font-weight: 600;
+}
+
+p {
+    font-weight:600;
+}
+
+li {
+    font-weight: 600;
+}
+
+/*tabella*/
 
 footer{
-    
+    margin-left: 10px;
 }
+
+h3 {
+    color: gray;
+}
+
 #adv1{
     height: 100%;
     padding: 100px;
@@ -70,3 +121,5 @@ footer{
     font-weight: bold;
     font-size: 20px;
 }
+
+/*sezione pubblicità nel footer*/
