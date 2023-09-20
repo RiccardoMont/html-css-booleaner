@@ -69,6 +69,9 @@ a, a:visited {
 table {
     border-collapse: collapse;
 }
+.cellapiccola {
+    width: 30%;
+}
 th{
     background-color: rgb(19, 136, 233);
     color: white;
@@ -81,12 +84,7 @@ th{
 td {
     text-align: left;
     font-weight: 600;
-    width: 5%;
-}
-
-p {
-    font-weight:600;
-    line-height: 100%;
+    
 }
 
 li {
@@ -95,6 +93,10 @@ li {
 }
 
 /*tabella*/
+p {
+    font-weight:600;
+    line-height: 100%;
+}
 
 footer{
     margin-left: 10px;
@@ -106,6 +108,7 @@ h3 {
 
 #adv1{
     height: 100%;
+    width: 250px;
     padding: 100px;
     background-image: url("../Images/monitor.jpg");
     background-repeat: no-repeat;
